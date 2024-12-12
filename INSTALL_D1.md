@@ -32,7 +32,7 @@ Replace the `database_id` in `wrangler.toml` with the one you just created.
 
 1. Create the D1 Database
 ```bash
-npx wrangler d1 execute p2pcf --local --file d1.sql --config wrangler_d1.toml
+npx wrangler d1 execute p2pcf --remote --file d1.sql --config wrangler_d1.toml
 ```
 
 ### Create the Cloudflare Worker
